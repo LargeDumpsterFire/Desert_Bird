@@ -31,7 +31,7 @@ public class BirdScript : MonoBehaviour
         }
         else
         {
-            anim.SetTrigger("Inactive");
+           // anim.SetTrigger("Inactive");
         }
         if (transform.position.y > 13 || transform.position.y < -13)
         {
@@ -47,10 +47,5 @@ public class BirdScript : MonoBehaviour
         logic.gameOver();
         birdIsAlive = false;
     }
-    public void Globals()
-    {
-        bool globalBirdIsAlive = birdIsAlive;
-    }
-
-
+ 
 }
