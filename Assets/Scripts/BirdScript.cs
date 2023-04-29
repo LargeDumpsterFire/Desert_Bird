@@ -26,7 +26,9 @@ public class BirdScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Mouse0) == true && birdIsAlive || Input.GetKeyDown(KeyCode.Space) == true && birdIsAlive)
         {
+
             anim.SetTrigger("Active");
+            soundManagerScript.PlaySound("birdFlap");
             myrigidbody.velocity = Vector2.up * flapStrength; // short hand for vector2(0,1)
         }
         else
