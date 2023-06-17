@@ -1,3 +1,15 @@
+/*
+ Make highscore saver top three scores 
+make a player selection screen customize or choose which bird you want to choose
+imlement a token system to by upgrades or new birds 
+make a shop to buy new birds or upgrades
+options to adjust sound and music
+ add view highschore button to end game screen
+ 
+ 
+ 
+ 
+ */
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml.Serialization;
