@@ -25,7 +25,7 @@ public class PipeMiddleScript : MonoBehaviour
         
         if (collision.gameObject.layer == 3 && birdAlive.birdIsAlive==true)
         {
-            Debug.Log("score added");
+           // Debug.Log("score added");
             logic.addScore(1);
            
         } 

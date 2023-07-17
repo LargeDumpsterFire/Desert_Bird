@@ -83,7 +83,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8903871082453114389}
   - component: {fileID: 8903871082453114390}
-  - component: {fileID: 8903871082453114391}
+  - component: {fileID: 943224630543614180}
   m_Layer: 0
   m_Name: Top Pipe
   m_TagString: Untagged
@@ -158,8 +158,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8903871082453114391
-BoxCollider2D:
+--- !u!70 &943224630543614180
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -172,18 +172,8 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.33, y: 21.87543}
-    newSize: {x: 5.33, y: 21.87543}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
   m_Size: {x: 5.33, y: 21.87543}
-  m_EdgeRadius: 0
+  m_Direction: 0
 --- !u!1 &8903871083700276996
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8903871083700276999}
   - component: {fileID: 8903871083700276993}
-  - component: {fileID: 8903871083700276998}
+  - component: {fileID: 4582939753615032396}
   m_Layer: 0
   m_Name: Bottom Pipe
   m_TagString: Untagged
@@ -269,8 +259,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8903871083700276998
-BoxCollider2D:
+--- !u!70 &4582939753615032396
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -283,18 +273,8 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.33, y: 21.87543}
-    newSize: {x: 5.33, y: 21.87543}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
   m_Size: {x: 5.33, y: 21.87543}
-  m_EdgeRadius: 0
+  m_Direction: 0
 --- !u!1 &8903871083777075650
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,5 +322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8aba4dbf62cb7f4982187268461ca9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  getSpeedMult: 0
+  speed: {fileID: 0}
   moveSpeed: 5
   deadzone: -45

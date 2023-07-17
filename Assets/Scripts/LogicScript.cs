@@ -28,6 +28,7 @@ public class LogicScript : MonoBehaviour
     {
         playerScore = playerScore + addScore;
         scoreText.text = playerScore.ToString();
+        
     }
 
     public void restartGame()
@@ -44,4 +45,5 @@ public class LogicScript : MonoBehaviour
     {
         gameOverScreen.SetActive(true);
     }
+   
 }
