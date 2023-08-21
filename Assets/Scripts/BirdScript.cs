@@ -40,7 +40,12 @@ public class BirdScript : MonoBehaviour
             logic.gameOver();
             birdIsAlive = false;
         }
-        
+        if (Input.GetKeyDown(KeyCode.Mouse1) == true)
+        {
+            logic.addScore(1);
+        }
+
+
 
 
     }

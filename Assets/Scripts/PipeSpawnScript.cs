@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class PipeSpawnScript : MonoBehaviour
 {
-    //myObject.GetComponent<MyScript>().MyFunction();
-    //myObject.GetComponent<BirdScript>().BirdScript(birdIsAlive);
 
     public GameObject pipe;
     public float spawnRate = 3;
